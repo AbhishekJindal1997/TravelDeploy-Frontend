@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { createLogEntries } from "../API";
 import Button from "@material-ui/core/Button";
-import { makeStyles } from "@material-ui/core/styles";
 
 const EntryForm = ({ location, onClose }) => {
   const [loading, setLoading] = useState(false);

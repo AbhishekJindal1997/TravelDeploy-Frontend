@@ -105,10 +105,13 @@ const Travel = () => {
               >
                 <div className="popup">
                   <h3 className="EntryTitle">{entry.title}</h3>
-                  <p className="comments">{entry.comments}</p>
-                  <small>
-                    Visited on: {new Date(entry.visitDate).toLocaleDateString()}
-                  </small>
+                  <p className="comments">{entry.description}</p>
+                  <div>
+                    <p>
+                      Visited on:{" "}
+                      {new Date(entry.visitDate).toLocaleDateString()}
+                    </p>
+                  </div>
                   {entry.image ? (
                     <img src={entry.image} alt={entry.title} />
                   ) : null}
