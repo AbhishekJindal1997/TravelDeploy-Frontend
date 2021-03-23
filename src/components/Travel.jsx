@@ -4,6 +4,7 @@ import { listLogEntries } from "../API";
 import EntryForm from "./EntryForm";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl";
+import "fontsource-roboto";
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker";
@@ -29,7 +30,7 @@ const Travel = () => {
     height: "100vh",
     latitude: 43.46495, // user latitude
     longitude: -80.52391, // user longitutde
-    zoom: 7,
+    zoom: 10,
   });
 
   const getEntries = async () => {
@@ -126,8 +127,8 @@ const Travel = () => {
               <div>
                 <svg
                   viewBox="0 0 24 24"
-                  width="60"
-                  height="60"
+                  width="40"
+                  height="40"
                   className="marker red"
                 >
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>

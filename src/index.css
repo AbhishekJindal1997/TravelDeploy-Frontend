@@ -17,37 +17,30 @@ body {
   padding: 10px;
 }
 
-
-.entryLog{
-  padding-top: 20px;
+.entryLog {
+  padding-top: 25px;
   width: 13rem;
 }
 
 .entryLog label,
 .entryLog input,
-.entryLog textarea,
+.entryLog textarea {
+  font-size: 1rem;
+  margin: 1rem 0;
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
 .entryLog button {
   font-size: 1rem;
   margin: 0.5rem 0;
   display: block;
   width: 100%;
-  font-weight: bold;
+  height: 40px;
 }
-
-.entryLog button{
-  margin-top: 20px;
-  background-color: #f05305;
-  color:white;
-  outline-width: 0px;
-  border:1px;
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 10px;
-}
-
-.entryLog input{
-  height: 25px;
- 
+.entryLog input {
+  height: 35px;
 }
 
 .ERROR {
@@ -70,5 +63,3 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-
-
