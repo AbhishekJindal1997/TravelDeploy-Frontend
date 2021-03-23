@@ -85,8 +85,8 @@ const Travel = () => {
                   className="marker"
                   alt="marker"
                   style={{
-                    height: `${7 * viewport.zoom}px`,
-                    width: `${7 * viewport.zoom}px`,
+                    height: `${4 * viewport.zoom}px`,
+                    width: `${4 * viewport.zoom}px`,
                   }}
                 ></img>
               </div>
