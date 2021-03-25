@@ -60,7 +60,7 @@ const Travel = () => {
     <>
       <ReactMapGL
         {...viewport}
-        mapStyle="mapbox://styles/abhishekjindal1997/ckf7w3y2o0w5z19lnxsewi6ef"
+        mapStyle="mapbox://styles/abhishekjindal1997/ckmok6bw106fs17o1yu7y60o0"
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
         onViewportChange={setViewport}
         onDblClick={showAddMarkerPopup}
